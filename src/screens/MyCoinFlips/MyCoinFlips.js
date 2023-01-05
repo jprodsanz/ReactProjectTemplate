@@ -1,20 +1,20 @@
 import React from 'react'
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
 // import { Button, Card, Accordion,Badge } from 'react-bootstrap';
 // import { Link } from 'react-router-dom';
 import MainScreen from '../../components/MainScreen';
 // import notes, { } from "../../data/notes";
-import TodoList from '../../components/TodoList';
+import MyCoin from '../../components/MyCoin';
 
-const Lists = () => {
+const MyCoinFlips = () => {
     return (
         <MainScreen title='Welcome Back...'>
             <div className="App">
-                <TodoList />
+                <MyCoin />
             </div>
     </MainScreen>
         
 );
 };
 
-export default Lists;
+export default MyCoinFlips;

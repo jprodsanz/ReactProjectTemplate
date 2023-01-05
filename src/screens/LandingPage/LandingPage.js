@@ -10,12 +10,13 @@ const LandingPage = () => {
                     <div className='intro-text'>
                         <div>
                             <h1 className="title">Welcome to App X </h1>
-                            <p className="subtitle"> A safe place for all of your productivity</p>
+                            <p className="subtitle"> A safe place to flip a coin</p>
+                            <p className="subtitle"> Take your chances</p>
                         </div>
                             <div className="buttonContainer">
-                                <a href="/lists">
+                                <a href="/flip">
                                     <Button size='lg'className='landingbutton'>
-                                        Crate To Do List
+                                        Flip Coin 
                                     </Button>
                                 </a>
                                 {/* <a href="/register">
